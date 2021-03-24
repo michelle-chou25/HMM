@@ -1,0 +1,6 @@
+# This is an implementation of Parts Of Speech tagging by using  hidden markov model 
+with viterbi algorithm and Witten-Bell smoothing.
+## To run the program, 
+export the file hmm.py to a desired directory, and within a command line, navigate to that directory. 
+Then the file can be executed by: py hmm.py
+
