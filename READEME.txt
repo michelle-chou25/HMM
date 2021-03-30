@@ -1,6 +1,17 @@
 # This is an implementation of Parts Of Speech tagging by using  hidden markov model 
 with viterbi algorithm and Witten-Bell smoothing.
-## To run the program, 
-export the file hmm.py to a desired directory, and within a command line, navigate to that directory. 
-Then the file can be executed by: py hmm.py
+
+## To run the program to predict the POS tagging word by word
+export the file hmm_predict_word.py to a desired directory, and within a command line, navigate to that directory. 
+Then the file can be executed by: py hmm_predict_word.py
+
+## To run the program to predict the POS tagging sentence by sentence
+export the file HMM_predict_sentences.py to a desired directory, and within a command line, navigate to that directory. 
+Then the file can be executed by: py HMM_predict_sentences.py
+
+## To run to program to find the similarity between different languages.
+export the file "comparing_lang_similarity.py"to a desired directory, and within a command line, navigate to that directory. 
+Then the file can be executed by: py comparing_lang_similarity.py
+
+###to make sure the program will run smoothly, keep directory "corpora" in the same level with the python files mentioned above
 
